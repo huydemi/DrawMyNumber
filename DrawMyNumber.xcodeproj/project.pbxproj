@@ -13,6 +13,7 @@
 		40FA30D71FF8886400913E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40FA30D61FF8886400913E47 /* Assets.xcassets */; };
 		40FA30E21FF8892A00913E47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40FA30E11FF8892A00913E47 /* LaunchScreen.xib */; };
 		40FA30E41FF88A0700913E47 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FA30E31FF88A0700913E47 /* DrawView.swift */; };
+		6BB9757321046E79007A5D7F /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9757221046E79007A5D7F /* MNISTClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		40FA30DB1FF8886400913E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40FA30E11FF8892A00913E47 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		40FA30E31FF88A0700913E47 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		6BB9757221046E79007A5D7F /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNISTClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		40FA30CE1FF8886400913E47 /* DrawMyNumber */ = {
 			isa = PBXGroup;
 			children = (
+				6BB9757221046E79007A5D7F /* MNISTClassifier.mlmodel */,
 				40FA30CF1FF8886400913E47 /* AppDelegate.swift */,
 				40FA30D11FF8886400913E47 /* ViewController.swift */,
 				40FA30E31FF88A0700913E47 /* DrawView.swift */,
@@ -142,6 +145,7 @@
 				40FA30D21FF8886400913E47 /* ViewController.swift in Sources */,
 				40FA30D01FF8886400913E47 /* AppDelegate.swift in Sources */,
 				40FA30E41FF88A0700913E47 /* DrawView.swift in Sources */,
+				6BB9757321046E79007A5D7F /* MNISTClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
